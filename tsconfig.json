@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+        "jsx": "react-jsxdev",
+        "paths": {
+            "@components/*": [
+                "./src/components/*"
+            ],
+            "@containers/*": [
+                "./src/containers/*"
+            ],
+            "@enum/*": [
+                "./src/enum/*"
+            ],
+            "@styles/*": [
+                "./src/styles/*"
+            ],
+            "@utils/*": [
+                "./src/utils/*"
+            ],
+            "@providers/*": [
+                "./src/providers/*"
+            ],
+            "@hooks/*": [
+                "./src/hooks/*"
+            ],
+            "@navigations/*": [
+                "./src/navigations/*"
+            ],
+            "@screens/*": [
+                "./src/screens/*"
+            ],
+            "@assets/*": [
+                "./assets/*"
+            ],
+        },
+    },
+    "typeRoots": [
+        "./types"
+    ]
+}
